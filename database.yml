@@ -1,0 +1,24 @@
+develop: 
+    database: txhims
+    pool: 5
+    username: root
+    password: 123456
+    host: localhost
+    port: 3306
+    socket: /tmp/mysql.sock
+staging:
+    database: txhims_staging
+    pool: 5
+    username: root
+    password: n[h^nM06
+    host: test.tongxinyiliao.com
+    port: 3306
+    socket: /tmp/mysql.sock
+production:
+    database: 25
+    pool: 25
+    username: pro_txdb
+    password: Tongxin2014
+    host: rdsarjziaiq3e2a.mysql.rds.aliyuncs.com
+    port: 3306
+    socket: /tmp/mysql.sock
